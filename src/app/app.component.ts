@@ -91,6 +91,7 @@ export class AppComponent implements OnInit {
         if (this.iSCollisionOccur()) {
             alert('Game over');
             clearInterval(this.interval);
+            this.tail =[];
             this.animate();
             this.scoreTodisplay=0;
             this.score=1;
