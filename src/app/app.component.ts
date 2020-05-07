@@ -93,7 +93,7 @@ export class AppComponent implements OnInit {
             clearInterval(this.interval);
             this.animate();
             this.scoreTodisplay=0;
-            this.score=0;
+            this.score=1;
             return;
         }
         else {
